@@ -1,0 +1,29 @@
+name: "Busylight MQTT"
+version: "0.1.6"
+slug: "busylight_mqtt"
+description: "MQTT bridge for Kuando Busylight Alpha on Home Assistant OS"
+startup: application
+boot: auto
+init: false
+arch:
+  - amd64
+  - aarch64
+  - armv7
+  - i386
+
+apparmor: false
+usb: true
+
+options:
+  mqtt_host: "core-mosquitto"
+  mqtt_port: 1883
+  mqtt_user: ""
+  mqtt_password: ""
+  mqtt_topic: "busylight/control"
+
+schema:
+  mqtt_host: str
+  mqtt_port: port
+  mqtt_user: str?
+  mqtt_password: password?
+  mqtt_topic: str
