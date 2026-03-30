@@ -9,7 +9,7 @@ This project is built for the **Kuando / Plenom Busylight UC Alpha**.
 You can find the official product page here:  
 [Busylight UC Alpha by Plenom](https://busylight.com/products/busylight-uc-alpha/)
 
-![Busylight UC Alpha](./Busylight.png)
+![Busylight UC Alpha](./Busylight.jpg)
 
 ## Features
 
