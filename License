@@ -1,0 +1,12 @@
+
+## Release text
+
+```text
+Busylight MQTT is a local Home Assistant OS add-on for controlling a Kuando / Plenom Busylight Alpha over MQTT.
+
+It listens on an MQTT topic and forwards commands to the Busylight using busylight-for-humans, making it easy to use in Home Assistant automations, dashboards, meeting indicators, streaming workflows, and other status-light setups.
+
+Currently tested with:
+- Kuando / Plenom Busylight Alpha
+- USB ID: 27bb:3bca
+- Home Assistant OS

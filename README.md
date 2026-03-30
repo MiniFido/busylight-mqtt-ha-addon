@@ -1,13 +1,13 @@
 # Busylight MQTT Add-on for Home Assistant OS
 
-Et simpelt local add-on til **Home Assistant OS**, som gør det muligt at styre en **Kuando / Plenom Busylight Alpha** via **MQTT**.
+A simple local add-on for **Home Assistant OS** that makes it possible to control a **Kuando / Plenom Busylight Alpha** over **MQTT**.
 
-Add-on’et lytter på et MQTT-topic og sender kommandoer videre til Busylighten via `busylight-for-humans`.
+The add-on listens on an MQTT topic and forwards commands to the Busylight using `busylight-for-humans`.
 
-## Hvad den kan
+## Features
 
-- Styre Busylight Alpha via MQTT
-- Understøtter farver som:
+- Control a Busylight Alpha over MQTT
+- Supports commands such as:
   - `red`
   - `green`
   - `blue`
@@ -15,18 +15,19 @@ Add-on’et lytter på et MQTT-topic og sender kommandoer videre til Busylighten
   - `black`
   - `blink_blue`
   - `list`
-- Kører som local add-on i Home Assistant OS
+- Runs as a local add-on on Home Assistant OS
+- Easy to use in Home Assistant automations and scripts
 
-## Krav
+## Requirements
 
 - Home Assistant OS
-- Mosquitto Broker eller anden MQTT broker
-- Kuando / Plenom Busylight Alpha sat til via USB
-- Local add-ons aktiveret via `/addons/local/`
+- Mosquitto Broker or another MQTT broker
+- Kuando / Plenom Busylight Alpha connected over USB
+- Local add-ons enabled through `/addons/local/`
 
 ## Installation
 
-Kopiér mappen `busylight_mqtt` til:
+Copy the `busylight_mqtt` folder into:
 
 ```bash
 /addons/local/

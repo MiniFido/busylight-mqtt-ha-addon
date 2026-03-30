@@ -1,0 +1,9 @@
+
+---
+
+# 2. `.gitignore`
+
+```gitignore
+*.log
+.DS_Store
+Thumbs.db

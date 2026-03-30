@@ -1,0 +1,21 @@
+Testing from Home Assistant
+
+Use mqtt.publish in Developer Tools → Actions.
+
+Example:
+
+action: mqtt.publish
+data:
+  topic: busylight/control
+  payload: red
+
+Turn it off:
+
+action: mqtt.publish
+data:
+  topic: busylight/control
+  payload: off
+
+
+
+  

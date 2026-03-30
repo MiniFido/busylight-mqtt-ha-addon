@@ -1,0 +1,31 @@
+busylight_red:
+  alias: Busylight Red
+  sequence:
+    - action: mqtt.publish
+      data:
+        topic: busylight/control
+        payload: red
+
+busylight_green:
+  alias: Busylight Green
+  sequence:
+    - action: mqtt.publish
+      data:
+        topic: busylight/control
+        payload: green
+
+busylight_blue:
+  alias: Busylight Blue
+  sequence:
+    - action: mqtt.publish
+      data:
+        topic: busylight/control
+        payload: blue
+
+busylight_off:
+  alias: Busylight Off
+  sequence:
+    - action: mqtt.publish
+      data:
+        topic: busylight/control
+        payload: off
