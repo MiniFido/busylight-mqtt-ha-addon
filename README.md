@@ -1,5 +1,9 @@
 # Busylight MQTT Add-on for Home Assistant OS
 
+----------------------------------------------------
+https://busylight.com/products/busylight-uc-alpha/
+----------------------------------------------------
+
 A simple local add-on for **Home Assistant OS** that makes it possible to control a **Kuando / Plenom Busylight Alpha** over **MQTT**.
 
 The add-on listens on an MQTT topic and forwards commands to the Busylight using `busylight-for-humans`.
@@ -31,8 +35,3 @@ Copy the `busylight_mqtt` folder into:
 
 ```bash
 /addons/local/
-
-
-
-----------------------------------------------------
-https://busylight.com/products/busylight-uc-alpha/
