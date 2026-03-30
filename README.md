@@ -31,3 +31,8 @@ Copy the `busylight_mqtt` folder into:
 
 ```bash
 /addons/local/
+
+
+
+----------------------------------------------------
+https://busylight.com/products/busylight-uc-alpha/
